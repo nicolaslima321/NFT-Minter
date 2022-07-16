@@ -5,6 +5,13 @@ const main = async () => {
   const nftContract = await nftContractFactory.deploy();
   await nftContract.deployed();
   console.log("Contrato implantado em:", nftContract.address);
+
+  let txn = await nftContract.makeAnEpicNFT();
+  await txn.wait();
+
+  txn = await nftContract.makeAnEpicNFT();
+
+  await txn.wait();
 };
 
 const runMain = async () => {
