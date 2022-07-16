@@ -1,0 +1,20 @@
+{
+  "name": "nft-minter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaslima321/NFT-Minter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaslima321/NFT-Minter/issues"
+  },
+  "homepage": "https://github.com/nicolaslima321/NFT-Minter#readme"
+}
